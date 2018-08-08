@@ -1217,7 +1217,7 @@ def main():
             screen.fill(room.background_color)
             
             # sets a time delay
-            time = clock.tick(0)
+            time = clock.tick(75)
                 
             # displays object before link
             room.display_before(screen, link, navi, text_window, sounds)
